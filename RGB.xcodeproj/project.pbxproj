@@ -10,7 +10,6 @@
 		EE500B0C1D0F0162008EA2FF /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE500B0B1D0F0162008EA2FF /* Quick.framework */; };
 		EE500B0E1D0F0176008EA2FF /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE500B0D1D0F0176008EA2FF /* Nimble.framework */; };
 		EE500B111D0F04A5008EA2FF /* RGBUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE500B101D0F04A5008EA2FF /* RGBUIColor.swift */; };
-		EE500B4D1D0F0915008EA2FF /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE500B4C1D0F0915008EA2FF /* Curry.framework */; };
 		EED057411D0EFDDC004CE722 /* RGB.h in Headers */ = {isa = PBXBuildFile; fileRef = EED057401D0EFDDC004CE722 /* RGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EED057481D0EFDDC004CE722 /* RGB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED0573D1D0EFDDC004CE722 /* RGB.framework */; };
 		EED0574D1D0EFDDC004CE722 /* RGBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0574C1D0EFDDC004CE722 /* RGBTests.swift */; };
@@ -30,7 +29,6 @@
 		EE500B0B1D0F0162008EA2FF /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		EE500B0D1D0F0176008EA2FF /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		EE500B101D0F04A5008EA2FF /* RGBUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBUIColor.swift; sourceTree = "<group>"; };
-		EE500B4C1D0F0915008EA2FF /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = "../../../../Library/Developer/Xcode/DerivedData/RGB-hffahgzebbrnovfnnabhefheibfk/Build/Products/Debug-iphonesimulator/Curry.framework"; sourceTree = "<group>"; };
 		EED0573D1D0EFDDC004CE722 /* RGB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED057401D0EFDDC004CE722 /* RGB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGB.h; sourceTree = "<group>"; };
 		EED057421D0EFDDC004CE722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE500B4D1D0F0915008EA2FF /* Curry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +61,6 @@
 		EE500B0F1D0F0196008EA2FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE500B4C1D0F0915008EA2FF /* Curry.framework */,
 				EE500B0D1D0F0176008EA2FF /* Nimble.framework */,
 				EE500B0B1D0F0162008EA2FF /* Quick.framework */,
 			);

@@ -6,10 +6,9 @@
 //  Copyright © 2016 Gymtrack Inc. All rights reserved.
 //
 
-import Curry
-
-public func RGBUIColor(red red: Int, green: Int, blue: Int) -> UIColor {
-    return curry(createColor)(red)(green)(blue)
+public func RGBUIColor(red red: Int, green: Int, blue: Int) -> String {
+    print("hello")
+    return ("hello")
 }
 
 private func createColor(red: Int, green: Int, blue: Int) -> UIColor {
